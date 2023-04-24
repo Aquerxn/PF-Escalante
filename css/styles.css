@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "monserrat", sans-serif;
+}
+
 header {
   background-color: #e3cbac;
   height: 110px;
@@ -45,6 +49,20 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   color: rgb(255, 255, 255);
+}
+
+footer {
+  background-color: #e3cbac;
+  height: 80px;
+}
+footer .footer-contenedor {
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  height: 80px;
+}
+footer .footer-contenedor li {
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

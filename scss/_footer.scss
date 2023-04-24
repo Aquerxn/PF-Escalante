@@ -1,0 +1,16 @@
+
+footer{
+    background-color: $background-color_1;
+    height: 80px;
+
+    .footer-contenedor{
+        text-align: center;
+        margin: auto;
+        font-size: 25px;
+        height: 80px;
+
+        li{
+            list-style: none;
+        }
+    }
+}
