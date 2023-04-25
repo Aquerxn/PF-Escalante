@@ -1,0 +1,43 @@
+//MAIN NOVEDADES
+
+.main-novedades{
+
+    .col-12{
+        padding: 0px;
+
+        .titulo-novedades{
+            background-image: url(../img/granos-cafe.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 190px;
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+//CARDS NOVEDADES
+
+
+.card-novedades{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+
+    &:hover{
+        transform: scale(1.15);
+    }
+}
+
+//FOOTER NOVEDADES
+
+.footer-novedades{
+    margin-top: 90px;
+}

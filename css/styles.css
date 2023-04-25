@@ -90,6 +90,38 @@ header nav ul li a:hover {
   width: 70%;
 }
 
+.main-novedades .col-12 {
+  padding: 0px;
+}
+.main-novedades .col-12 .titulo-novedades {
+  background-image: url(../img/granos-cafe.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 190px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-novedades {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 90px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+.card-novedades:hover {
+  transform: scale(1.15);
+}
+
+.footer-novedades {
+  margin-top: 90px;
+}
+
 footer {
   background-color: #e3cbac;
   height: 80px;
