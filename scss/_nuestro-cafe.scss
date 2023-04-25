@@ -1,0 +1,39 @@
+//MAIN NUESTRO CAFE
+
+//TITULO NUESTRO CAFE
+
+.main-nuestro-cafe{
+
+    .col-12{
+        padding: 0px;
+
+        .titulo-nuestro-cafe{
+            background-image: url(../img/granos-cafe.png);
+            height: 190px;
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+//INFORMACION NUESTRO CAFE
+
+.informacion-nuestro-cafe{
+    width: 100%;
+
+    p{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+//CARROUSEL NUESTRO CAFE
+
+.col-12-carrousel{
+    width: 90%;
+    margin: 50px auto;
+    
+}

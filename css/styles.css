@@ -122,6 +122,32 @@ header nav ul li a:hover {
   margin-top: 90px;
 }
 
+.main-nuestro-cafe .col-12 {
+  padding: 0px;
+}
+.main-nuestro-cafe .col-12 .titulo-nuestro-cafe {
+  background-image: url(../img/granos-cafe.png);
+  height: 190px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.informacion-nuestro-cafe {
+  width: 100%;
+}
+.informacion-nuestro-cafe p {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.col-12-carrousel {
+  width: 90%;
+  margin: 50px auto;
+}
+
 footer {
   background-color: #e3cbac;
   height: 80px;
