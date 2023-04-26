@@ -218,6 +218,10 @@ header nav ul li a:hover {
 .card-menu:hover {
   scale: 1.15;
 }
+.card-menu .card-texto {
+  display: flex;
+  justify-content: center;
+}
 
 .footer-menu {
   margin-top: 90px;
