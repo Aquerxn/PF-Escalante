@@ -1,3 +1,9 @@
+@mixin movil( $medida: 820px ){
+    @media screen and (max-width: $medida){
+        @content;
+    }
+}
+
 
 header{
     background-color: $background-color_1;
@@ -17,12 +23,16 @@ header{
 
         .checkbtn{
             font-size: 30px;
-            color: #2d1d06;
+            color: $color_3;
             float: right;
             line-height: 110px;
             margin-right: 30px;
             cursor: pointer;
             display: none;
+
+            @include movil ($medida){
+                display: block;
+            }
 
             #check{
                 display: none;
@@ -33,9 +43,26 @@ header{
             float: right;
             margin-right: 20px;
 
+            @include movil ($medida){
+                width: 100%;
+                height: 50vh;
+                background-color: #e3cbac;
+                position: absolute;
+                top: 110px;
+                left: -100%;
+                text-align: center;
+                transition: all .5s;
+            }
+
             li{
                 display: inline-block;
                 line-height: 100px;
+
+                @include movil ($medida){
+                    display: block;
+                    margin: 50px 0;
+                    line-height: 30px;
+                }
 
                 a{
                     color: $color_1;
@@ -43,11 +70,24 @@ header{
                     padding-right: 25px;
                     font-size: 25px;
 
+                    @include movil ($medida){
+                        font-size: 30px;
+                    }
+
                     &:hover{
                         color: $color_2;
                     }
                 }
             }
         }
+
+        @include movil($medida){
+            #check:checked{
+                ~ ul{
+                    left: 0;
+                }
+            }
+        }
+        
     }
 }

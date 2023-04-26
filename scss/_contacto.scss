@@ -1,0 +1,75 @@
+//MAIN CONTACTO
+
+//FORMULARIO
+
+.main-contacto{
+
+    .col-12{
+        padding: 0px;
+
+        .contacto-container{
+            background-image: url(../img/granos-cafe.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+
+            .form{
+                background: rgba(255, 255, 255, .4);
+                width: 90%;
+                max-width: 700px;
+                border-radius: 1em;
+                padding: 3.5em 1.5em; 
+                margin: auto;
+
+                .form-container{
+                    font-family: $font-family_1;
+                    width: 100%;
+                    display: grid;
+                    gap: 1em;
+                    grid-auto-columns: 100%;
+
+                    .form-tittle{
+                        text-align: center;
+                        font-size: 1.9rem ;
+                        margin-bottom: .4rem;
+                        color: $color_5;
+
+                    }
+
+                    .form-input{
+                        font-family: inherit;
+                        font-size: 1rem;
+                        padding: .8rem 1em;
+                        outline: none;
+                        border: none;
+                        border-radius: 1em;
+                        border: 1px solid $color_4;
+
+                    }
+
+                    .form-input-message{
+                        resize: none;
+                        padding: 1.8em 1em;
+                        margin-bottom: .5em;
+
+                    }
+
+                    .form-cta{
+                        font-family: $font-family_3;
+                        font-size: 1rem;
+                        background-color: $background-color_1;
+                        color: $color_5;
+                        border: none;
+                        font-weight: 600;
+                        padding: .7em 0;
+                        border-radius: 1em;
+                        cursor: pointer;
+                                }
+                }
+            } 
+            
+        }
+    }
+}

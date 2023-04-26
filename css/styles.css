@@ -30,6 +30,11 @@ header nav .checkbtn {
   cursor: pointer;
   display: none;
 }
+@media screen and (max-width: 820px) {
+  header nav .checkbtn {
+    display: block;
+  }
+}
 header nav .checkbtn #check {
   display: none;
 }
@@ -37,9 +42,28 @@ header nav ul {
   float: right;
   margin-right: 20px;
 }
+@media screen and (max-width: 820px) {
+  header nav ul {
+    width: 100%;
+    height: 50vh;
+    background-color: #e3cbac;
+    position: absolute;
+    top: 110px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+}
 header nav ul li {
   display: inline-block;
   line-height: 100px;
+}
+@media screen and (max-width: 820px) {
+  header nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
 }
 header nav ul li a {
   color: #2c2317;
@@ -47,8 +71,18 @@ header nav ul li a {
   padding-right: 25px;
   font-size: 25px;
 }
+@media screen and (max-width: 820px) {
+  header nav ul li a {
+    font-size: 30px;
+  }
+}
 header nav ul li a:hover {
   color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 820px) {
+  header nav #check:checked ~ ul {
+    left: 0;
+  }
 }
 
 .main-index .col-12 {
@@ -98,7 +132,7 @@ header nav ul li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   height: 190px;
-  color: rgb(255, 255, 255);
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +144,7 @@ header nav ul li a:hover {
   margin-top: 90px;
   border-radius: 6px;
   overflow: hidden;
-  background: #fff;
+  background: white;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
 }
@@ -128,7 +162,7 @@ header nav ul li a:hover {
 .main-nuestro-cafe .col-12 .titulo-nuestro-cafe {
   background-image: url(../img/granos-cafe.png);
   height: 190px;
-  color: rgb(255, 255, 255);
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,7 +211,7 @@ header nav ul li a:hover {
   margin-top: 90px;
   border-radius: 6px;
   overflow: hidden;
-  background: #fff;
+  background: white;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
 }
@@ -187,6 +221,64 @@ header nav ul li a:hover {
 
 .footer-menu {
   margin-top: 90px;
+}
+
+.main-contacto .col-12 {
+  padding: 0px;
+}
+.main-contacto .col-12 .contacto-container {
+  background-image: url(../img/granos-cafe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.main-contacto .col-12 .contacto-container .form {
+  background: rgba(255, 255, 255, 0.4);
+  width: 90%;
+  max-width: 700px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+  margin: auto;
+}
+.main-contacto .col-12 .contacto-container .form .form-container {
+  font-family: "monserrat", sans-serif;
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+.main-contacto .col-12 .contacto-container .form .form-container .form-tittle {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 0.4rem;
+  color: #115742;
+}
+.main-contacto .col-12 .contacto-container .form .form-container .form-input {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.8rem 1em;
+  outline: none;
+  border: none;
+  border-radius: 1em;
+  border: 1px solid white;
+}
+.main-contacto .col-12 .contacto-container .form .form-container .form-input-message {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: 0.5em;
+}
+.main-contacto .col-12 .contacto-container .form .form-container .form-cta {
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #e3cbac;
+  color: #115742;
+  border: none;
+  font-weight: 600;
+  padding: 0.7em 0;
+  border-radius: 1em;
+  cursor: pointer;
 }
 
 footer {
