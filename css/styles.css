@@ -89,7 +89,7 @@ header nav ul li a:hover {
   padding: 0px;
 }
 .main-index .col-12 .imagen {
-  background-image: url(../img/section1-index.webp);
+  background-image: url(../img/section1-index.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -128,7 +128,7 @@ header nav ul li a:hover {
   padding: 0px;
 }
 .main-novedades .col-12 .titulo-novedades {
-  background-image: url(../img/granos-cafe.png);
+  background-image: url(../img/granos-cafe.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 190px;
@@ -160,7 +160,7 @@ header nav ul li a:hover {
   padding: 0px;
 }
 .main-nuestro-cafe .col-12 .titulo-nuestro-cafe {
-  background-image: url(../img/granos-cafe.png);
+  background-image: url(../img/granos-cafe.jpg);
   height: 190px;
   color: white;
   display: flex;
@@ -227,7 +227,7 @@ header nav ul li a:hover {
   padding: 0px;
 }
 .main-contacto .col-12 .contacto-container {
-  background-image: url(../img/granos-cafe.jpg);
+  background-image: url(../img/granos-cafe2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
