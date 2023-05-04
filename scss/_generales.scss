@@ -10,3 +10,45 @@
 body{
     font-family: $font-family_1;
 }
+
+
+// TITULOS DE NOVEDADES Y NUESTRO CAFE
+
+.titulos{
+    background-image: url(../img/granos-cafe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 190px;
+    color: $color_4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// TITULOS DE MENU
+
+.titulos-menu{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// CARDS DE NOVEDADES Y MENU
+
+.cards{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 90px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: $color_4;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+
+    &:hover{
+        transform: scale(1.15);
+    }
+}

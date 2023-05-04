@@ -6,11 +6,7 @@
     .titulo-1-menu{
 
         h1{
-            width: 100%;
-            margin-top: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend .titulos-menu
         }
 
         h6{
@@ -23,35 +19,15 @@
     .titulo2-menu{
 
         h2{
-            width: 100%;
-            margin-top: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend .titulos-menu
         }
     }
 }
 
-//CARDS MENU
+// CARDS MENU
 
 .card-menu{
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 90px;
-    border-radius: 6px;
-    overflow: hidden;
-    background: $color_4;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    transition: all 0.3s;
-
-    &:hover{
-        scale:(1.15) ;
-    }
-
-    .card-texto{
-        display: flex;
-        justify-content: center;
-    }
+    @extend .cards
 }
 
 //FOOTER MENU
